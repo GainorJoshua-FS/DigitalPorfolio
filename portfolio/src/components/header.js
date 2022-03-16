@@ -1,6 +1,6 @@
 import React from 'react'
 
-function header() {
+function Header() {
     return (
         <header>
             
@@ -8,4 +8,10 @@ function header() {
     )
 }
 
-export default header
+export default Header
+
+const styles ={
+    header:{
+        backgroundColor: "#2c3160"
+    }
+}

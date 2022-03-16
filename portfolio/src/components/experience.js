@@ -1,6 +1,6 @@
 import React from 'react'
 
-function experience() {
+function Experience() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function experience() {
     )
 }
 
-export default experience
+export default Experience
