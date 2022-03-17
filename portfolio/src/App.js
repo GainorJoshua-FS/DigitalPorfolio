@@ -20,6 +20,7 @@ export default App;
 
 const styles = {
   main:{
-    backgroundColor: "#c2c0c1"
+    backgroundColor: "#c2c0c1",
+    textAlign: "center"
   }
 }
