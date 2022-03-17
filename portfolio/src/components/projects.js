@@ -3,7 +3,7 @@ import React from 'react'
 function Projects() {
     return (
         <section style={styles.section}>
-            <h2>My Work</h2>
+            <h2>My Work Here</h2>
         </section>
     )
 }

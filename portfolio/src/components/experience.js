@@ -2,9 +2,9 @@ import React from 'react'
 
 function Experience() {
     return (
-        <div>
-            
-        </div>
+        <section>
+            <h2>Some past work experience here</h2>
+        </section>
     )
 }
 
