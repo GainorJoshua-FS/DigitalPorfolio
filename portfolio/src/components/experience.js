@@ -9,3 +9,7 @@ function Experience() {
 }
 
 export default Experience
+
+const styles ={
+    
+}
