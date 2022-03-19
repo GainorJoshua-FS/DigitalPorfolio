@@ -24,7 +24,7 @@ function AboutMe() {
             <h2 style={styles.h2} >About Me</h2>
             {/* TODO Add more to the second paragraph */}
             <p style={styles.p}>
-                Hey there! My name is Joshua Gainor and I am a web designer and developer that mainly focuses on front-end development. I am originally from Bowie, Maryland before moving to Florida to go to schoo at Full Sail University. I orginally went to Full Sail for Simulations & Visualization in order to creat virtual reality games, but quickly learned that I would prefer to keep games as a hobby and not a job. So, I switched into web development and started to enjoy planning out what a website would look like and learning how to make it function<span id="dots">...</span>
+                Hey there! My name is Joshua Gainor and I am a web designer and developer that mainly focuses on front-end development. I am originally from Bowie, Maryland before moving to Florida to go to school at Full Sail University. I orginally went to Full Sail for Simulations & Visualization in order to create virtual reality games, but quickly learned that I would prefer to keep games as a hobby and not a job. So, I switched into web development and started to enjoy planning out what a website would look like and learning how to make it function<span id="dots">...</span>
                 <span id="more"> <br/>
                     Lorem Epsum asdbasfbajkbf
                 </span>
@@ -45,6 +45,7 @@ const styles ={
         margin: "20px 20%"
     },
     h2:{
+        borderBottom: "1px solid #2c3160"
     },
     p:{
         fontSize: "16px",
