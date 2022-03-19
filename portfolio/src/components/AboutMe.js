@@ -1,5 +1,5 @@
 import React from 'react'
-import Me from '../images/Me.jpg'
+import Me from '../images/Me2.JPEG'
 
 function ShowMore() {
     const dots = document.getElementById("dots");
