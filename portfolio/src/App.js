@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <AboutMe />
         <Projects />
+        <Experience />
         {/* <Routes>
 
         </Routes> */}

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
         <header style={styles.header}>
-            <Link to="/" style={styles.link}>
+            <Link id="link" to="/" style={styles.link}>
                 <img src={Logo2} alt="JG Logo" />
             </Link>
             <h1 style={styles.h1}>Joshua Gainor <br/> <span style={styles.span}> Web Developer </span></h1>
