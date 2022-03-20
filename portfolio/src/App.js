@@ -4,6 +4,7 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         {/* <Routes>
 
         </Routes> */}
+        <Footer />
       </BrowserRouter>
     </main>
   );
