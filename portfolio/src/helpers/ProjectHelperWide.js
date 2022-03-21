@@ -31,7 +31,8 @@ const styles ={
         color: "#c2c0c1",
         fontSize: "16px",
         fontWeight: "600",
-        margin: " 10px 23px 0 23px"
+        margin: " 10px 7% 0 7%",
+        letterSpacing: "1.5px"
         // textAlign: "center"
         // display: "flex",
         // alignItems: "stretch"
