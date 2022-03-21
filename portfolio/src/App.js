@@ -5,18 +5,21 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Footer from './components/Footer';
+import GameNight from './components/GameNight';
+import Home from './components/Home';
 
 function App() {
   return (
     <main style={styles.main}>
       <BrowserRouter>
         <Header />
-        <AboutMe />
+        {/* <AboutMe />
         <Projects />
-        <Experience />
-        {/* <Routes>
-
-        </Routes> */}
+        <Experience /> */}
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/gamenight" element={<GameNight />} />
+        </Routes>
         <Footer />
       </BrowserRouter>
     </main>

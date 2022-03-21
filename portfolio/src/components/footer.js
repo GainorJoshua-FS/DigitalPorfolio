@@ -20,14 +20,6 @@ function Footer() {
                         
                     </ul>
             </section>
-            {/* <ul style={styles.ul}>
-                <li>
-                    <a style={styles.a} href="https://www.linkedin.com/in/joshua-gainor/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                </li>
-                <li>
-                    contact@joshuagainor.com or joshgainor@gmail.com
-                </li>
-            </ul> */}
         </footer>
     )
 }
