@@ -6,7 +6,7 @@ import GndInfo from '../images/GndInfo.png'
 import KanHome from '../images/KanbanHome.png'
 import KanNew from '../images/KanbanNew.png'
 import QuizHome from '../images/QuizHome.png'
-import QuizTest from '../images/QuizTest.png'
+// import QuizTest from '../images/QuizTest.png'
 
 function Projects() {
     return (
@@ -14,13 +14,13 @@ function Projects() {
             <h2 style={styles.h2}>My Projects</h2>
             <div style={styles.div}>
                 <ProjectHelper
-                    title="Game Night Debut" src={GndHome} alt="A Boardgame app's home page" src2={GndInfo} alt2="A boardgame app's description page of a boardgame" desc="Short Description Here Along with a link to GH repo"
+                    title="Game Night Debut" src={GndHome} alt="A Boardgame app's home page" src2={GndInfo} alt2="A boardgame app's description page of a boardgame" desc="A mobile first React/Node based application that pulls from an API with a custom backend Postgres database."
                 />
                 <ProjectHelper
-                    title="JQG Kanban Board" src={KanHome} alt="A Kanban board website" src2={KanNew} alt2="The Kanban's new task screen" desc="Short Description Here Along with a link to GH repo"
+                    title="JQG Kanban Board" src={KanHome} alt="A Kanban board website" src2={KanNew} alt2="The Kanban's new task screen" desc="A simple JavaScript website that mimics a standard kanban board. Pulls from an API and has a custom built light/dark mode"
                 />
                 <ProjectHelperWide
-                    title="Quiz Taker" src={QuizHome} alt="A quiz taking site's homepage" desc="Short Description Here Along with a link to GH repo"
+                    title="Quiz Taker" src={QuizHome} alt="A quiz taking site's homepage" desc="A react based site with a custom RESTful API and database."
                 />
             </div>
         </section>
