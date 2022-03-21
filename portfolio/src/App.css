@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+#more {
+  display: none
+}
+
+header{
+}
+
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 31px;
+}
+
+/* 
+Blue - 2c3160
+Gray - c2c0c1
+Orange - e15c25
+*/
