@@ -17,17 +17,12 @@ function Footer() {
                         <li style={styles.li}>
                             <a style={styles.a} href="https://twitter.com/Jobin_Tv" target="_blank" rel="noopener noreferrer">Twitter</a>
                         </li>
+                        <li style={styles.li}>
+                            <a style={styles.a} href="https://docs.google.com/document/d/19fH_-9WeQu6ExGR6X8zEwTXDvXXGMQPb-aJGzjH84Cg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">My Resume</a>
+                        </li>
                         
                     </ul>
             </section>
-            {/* <ul style={styles.ul}>
-                <li>
-                    <a style={styles.a} href="https://www.linkedin.com/in/joshua-gainor/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                </li>
-                <li>
-                    contact@joshuagainor.com or joshgainor@gmail.com
-                </li>
-            </ul> */}
         </footer>
     )
 }
