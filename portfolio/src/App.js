@@ -1,9 +1,6 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import Experience from './components/Experience';
 import Footer from './components/Footer';
 import GameNight from './components/GameNight';
 import Home from './components/Home';
@@ -13,7 +10,7 @@ import Quiz from './components/Quiz';
 function App() {
   return (
     <main style={styles.main}>
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         {/* <AboutMe />
         <Projects />
@@ -25,7 +22,7 @@ function App() {
           <Route path="/quiz" element={<Quiz />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </main>
   );
 }
