@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function ProjectHelper(props) {
     return (
@@ -8,7 +9,8 @@ function ProjectHelper(props) {
                 <img style={styles.img} src={props.src} alt={props.alt} />
                 <img style={styles.img} src={props.src2} alt={props.alt2} />
             </div>
-            <p style={styles.p} >{props.desc}</p>
+            <p style={styles.p} >{props.desc} <Link style={styles.link} to={props.page}>See More!</Link></p>
+            <a style={styles.a} href={props.git} target="_blank" rel="noopener noreferrer">Check out the Git repo!</a>
         </article>
     )
 }
@@ -32,7 +34,7 @@ const styles ={
         color: "#c2c0c1",
         fontSize: "16px",
         fontWeight: "600",
-        margin: " 10px 7% 0 7%",
+        margin: " 10px 7% 5px 7%",
         letterSpacing: "1.5px"
         // textAlign: "center"
     },
@@ -40,5 +42,12 @@ const styles ={
         display: "flex",
         justifyContent: "space-evenly",
         alignItems: "end",
+    },
+    a:{
+        color: "#e15c25",
+        marginLeft: "7%",
+    },
+    link:{
+        color: "#e15c25", 
     }
 }

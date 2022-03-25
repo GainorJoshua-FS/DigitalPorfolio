@@ -14,13 +14,13 @@ function Projects() {
             <h2 style={styles.h2}>My Projects</h2>
             <div style={styles.div}>
                 <ProjectHelper
-                    title="Game Night Debut" src={GndHome} alt="A Boardgame app's home page" src2={GndInfo} alt2="A boardgame app's description page of a boardgame" desc="A mobile first React/Node based application that pulls from an API with a custom backend Postgres database."
+                    title="Game Night Debut" src={GndHome} alt="A Boardgame app's home page" src2={GndInfo} alt2="A boardgame app's description page of a boardgame" desc="A mobile first React/Node based application that pulls from an API with a custom backend Postgres database." git="https://github.com/ePortfolios/WDD4416-2201-GainorJoshua" page="/gamenight"
                 />
                 <ProjectHelper
-                    title="JQG Kanban Board" src={KanHome} alt="A Kanban board website" src2={KanNew} alt2="The Kanban's new task screen" desc="A simple JavaScript website that mimics a standard kanban board. Pulls from an API and has a custom built light/dark mode"
+                    title="JQG Kanban Board" src={KanHome} alt="A Kanban board website" src2={KanNew} alt2="The Kanban's new task screen" desc="A simple JavaScript website that mimics a standard kanban board. Pulls from an API and has a custom built light/dark mode" git="https://github.com/dws2/kanban-GainorJoshua-FS" page="/kanban"
                 />
                 <ProjectHelperWide
-                    title="Quiz Taker" src={QuizHome} alt="A quiz taking site's homepage" desc="A react based site with a custom RESTful API and database."
+                    title="Quiz Taker" src={QuizHome} alt="A quiz taking site's homepage" desc="A react based site with a custom RESTful API and database." git="https://github.com/GainorJoshua-FS/ASL" page="/quiz"
                 />
             </div>
         </section>

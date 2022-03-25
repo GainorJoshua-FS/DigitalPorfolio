@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function ProjectHelperWide(props) {
     return (
@@ -7,7 +8,8 @@ function ProjectHelperWide(props) {
             <div style={styles.div}>
                 <img style={styles.img} src={props.src} alt={props.alt} />
             </div>
-            <p style={styles.p} >{props.desc}</p>
+            <p style={styles.p} >{props.desc} <Link style={styles.link} to={props.page}>See More!</Link></p>
+            <a style={styles.a} href={props.git} target="_blank" rel="noopener noreferrer">Check out the Git repo!</a>
         </article>
     )
 }
@@ -31,7 +33,7 @@ const styles ={
         color: "#c2c0c1",
         fontSize: "16px",
         fontWeight: "600",
-        margin: " 10px 7% 0 7%",
+        margin: " 10px 7% 5px 7%",
         letterSpacing: "1.5px"
         // textAlign: "center"
         // display: "flex",
@@ -41,5 +43,12 @@ const styles ={
         display: "flex",
         justifyContent: "space-evenly",
         alignItems: "end",
+    },
+    a:{
+        color: "#e15c25",
+        marginLeft: "7%",
+    },
+    link:{
+        color: "#e15c25", 
     }
 }
