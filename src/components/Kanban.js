@@ -42,6 +42,7 @@ function Kanban() {
                         project is a simple delete function to delete tasks in any list the user would need to delete them from. I also wish to implement an edit option so the user can fix any spelling mistakes or change any due dates.
                     </p>
                 </article>
+                <a style={styles.link} href="https://github.com/dws2/kanban-GainorJoshua-FS" target="_blank" rel="noopener noreferrer">Check out the Github repo!</a>
             </section>
         </section>
     )
@@ -81,5 +82,8 @@ const styles ={
     },
     p:{
         fontSize: "17px"
+    },
+    a:{
+        color: ""
     }
 }

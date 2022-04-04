@@ -37,6 +37,7 @@ function GameNight() {
                     <h2>Whats Coming Next</h2>
                     <p style={styles.p}>As of right now, Game Night Debut has the option of keeping a collection of your games and creating a plan that has a date, time, and address to keep track of when your upcoming game nights are. In the future, I plan on creating a login system and an invite system that will let you send your plans to others so that they can keep track of when and where to meet up. I also plan on putting the collection into the database that's associated to the user's account.</p>
                 </article>
+            <a style={styles.link} href="https://github.com/ePortfolios/WDD4416-2201-GainorJoshua" target="_blank" rel="noopener noreferrer">Check out the Github repo!</a>
             </section>
         </section>
     )
@@ -71,7 +72,8 @@ const styles ={
     },
     link:{
         color: "#e15c25",
-        width: "100%"
+        width: "100%",
+        fontWeight: "bolder"
     },
     p:{
         fontSize: "17px"
