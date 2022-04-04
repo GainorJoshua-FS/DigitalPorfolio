@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/DigitalPorfolio/static/css/main.1a64add6.css",
+    "main.js": "/DigitalPorfolio/static/js/main.6a764d05.js",
+    "static/js/787.1ed0c42c.chunk.js": "/DigitalPorfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/collection.png": "/DigitalPorfolio/static/media/collection.d21ee62f3e13276d0485.png",
+    "static/media/GndHome.png": "/DigitalPorfolio/static/media/GndHome.c84ed0247397d1ea2275.png",
+    "static/media/GndInfo.png": "/DigitalPorfolio/static/media/GndInfo.a400526195ea28829ff1.png",
+    "static/media/QuizHome.png": "/DigitalPorfolio/static/media/QuizHome.4bdff70a95a3e9c58811.png",
+    "static/media/QuizTest.png": "/DigitalPorfolio/static/media/QuizTest.089d68d05708821372b4.png",
+    "static/media/KanbanHome.png": "/DigitalPorfolio/static/media/KanbanHome.b76e879ef2d9db0bde04.png",
+    "static/media/KanbanNew.png": "/DigitalPorfolio/static/media/KanbanNew.ca1ceb3cc17d1b836b40.png",
+    "static/media/Me2.JPEG": "/DigitalPorfolio/static/media/Me2.7302ff19ceda713c9a5b.JPEG",
+    "static/media/Logo.png": "/DigitalPorfolio/static/media/Logo.20af6c96bf98bfa4c4d9.png",
+    "index.html": "/DigitalPorfolio/index.html",
+    "main.1a64add6.css.map": "/DigitalPorfolio/static/css/main.1a64add6.css.map",
+    "main.6a764d05.js.map": "/DigitalPorfolio/static/js/main.6a764d05.js.map",
+    "787.1ed0c42c.chunk.js.map": "/DigitalPorfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a64add6.css",
+    "static/js/main.6a764d05.js"
+  ]
+}
