@@ -21,7 +21,7 @@ function Kanban() {
                 <article style={styles.article}>
                     <h2>The Idea</h2>
                     <p style={styles.p}>
-                        The idea for this project was rather simple, create a kanban board using an API in order to get used to pulling information from an API. Another idea for this website was to create my own button that will allow the user to switch from light and dark mode. For this project, it was my first time ever pulling from an API and my first time programming something to change the theme of the website.
+                        The idea for this project was rather simple, create a kanban board using an API in order to get used to pulling information from an API. Another idea for this website was to create my own button that will allow the user to switch from light and dark mode. For this project, it was my first time ever pulling from an API, using SCSS, and my first time programming something to change the theme of the website. The SCSS portion is full customized with mix-ins and plugins.
                     </p>
                 </article>
                 <article style={styles.article}>
@@ -42,7 +42,7 @@ function Kanban() {
                         project is a simple delete function to delete tasks in any list the user would need to delete them from. I also wish to implement an edit option so the user can fix any spelling mistakes or change any due dates.
                     </p>
                 </article>
-                <a style={styles.link} href="https://github.com/dws2/kanban-GainorJoshua-FS" target="_blank" rel="noopener noreferrer">Check out the Github repo!</a>
+                <a style={styles.link} href="https://github.com/GainorJoshua-FS/JQG-Kanban" target="_blank" rel="noopener noreferrer">Check out the Github repo!</a>
             </section>
         </section>
     )
