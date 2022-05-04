@@ -21,7 +21,7 @@ function Kanban() {
                 <article style={styles.article}>
                     <h2>The Idea</h2>
                     <p style={styles.p}>
-                        The idea for this project was rather simple, create a kanban board using an API in order to get used to pulling information from an API. Another idea for this website was to create my own button that will allow the user to switch from light and dark mode. For this project, it was my first time ever pulling from an API, using SCSS, and my first time programming something to change the theme of the website. The SCSS portion is full customized with mix-ins and plugins.
+                        The idea for this project was rather simple, create a kanban board using an API in order to get used to pulling information from an API. Another idea for this website was to create my own button that will allow the user to switch from light and dark mode. For this project, it was my first time ever pulling from an API, using SCSS, and my first time programming something to change the theme of the website. The SCSS portion is fully customized with mix-ins and plugins.
                     </p>
                 </article>
                 <article style={styles.article}>
