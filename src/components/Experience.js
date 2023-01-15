@@ -5,10 +5,18 @@ function Experience() {
         <section style={styles.section}>
             <h2 style={styles.h2}>Experience</h2>
 
+            <h3>Proforma | Tampa, FL / Remote | Jr.Developer | 08/2022 - Present</h3>
+            <ul>
+                <li>Worked in QA Automation to write and fix automated tests</li>
+                <li>Was a part of a development team working on a project for the company's new eCommerce website</li>
+                <li>Quickly learned new skills and coding languages as needed</li>
+            </ul>
+
             <h3>Full Sail University | Orlando, FL | Student | 07/2019 - 03/2022</h3>
             <ul>
                 <li>Creating programs in C#</li>
                 <li>Creating fully functional websites using React, Node, APIs and Databases</li>
+                <li>Some Game Design experience</li>
             </ul>
 
             <h3>Co-Pilot Tutoring Center | Orlando, FL | Shift Leader | 
