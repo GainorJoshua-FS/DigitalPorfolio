@@ -20,7 +20,7 @@ function ShowMore() {
 function AboutMe() {
     return (
         <section style={styles.section}>
-            <img style={styles.img} src={Me} alt="picture of Joshua Gainor" />
+            <img style={styles.img} src={Me} alt="Joshua Gainor" />
             <h2 style={styles.h2} >About Me</h2>
             {/* TODO Add more to the second paragraph */}
             <p style={styles.p}>
