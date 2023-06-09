@@ -5,7 +5,7 @@ function Footer() {
         <footer style={styles.footer}>
             <h2 style={styles.h3}>Contact Me</h2>
             <section style={styles.section}>
-                <h3>Feel free to contact me at <span style={styles.span}>contact@joshuagainor.com</span> or <span style={styles.span}>joshgainor@gmail.com</span></h3>
+                <h3>Feel free to contact me at <span style={styles.span}>joshgainor@gmail.com</span></h3>
                     {/* <h3>Socials</h3> */}
                     <ul style={styles.ul}>
                         <li style={styles.li}>
