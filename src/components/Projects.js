@@ -6,14 +6,37 @@ import GndInfo from '../images/GndInfo.png'
 import KanHome from '../images/KanbanHome.png'
 import KanNew from '../images/KanbanNew.png'
 import QuizHome from '../images/QuizHome.png'
+import BdLogo from '../images/BdLogo.png'
 // import QuizTest from '../images/QuizTest.png'
 
 function Projects() {
     return (
         <section style={styles.section}>
             <h2 style={styles.h2}>My Projects</h2>
-            <div style={styles.div}>
                 <ProjectHelper
+                    src={BdLogo}
+                    alt="Logo for Board Debut Website"
+
+                    title="Test Title"
+
+                    desc="Test Desc"
+                />
+                <ProjectHelper
+                    src={BdLogo}
+                    alt="Logo for Board Debut Website"
+
+                    title="Test Title"
+
+                    desc="Test Desc"
+                />
+
+
+            {/* Old Styles.================================================ */}
+
+
+            {/* <div style={styles.div}> */}
+
+                {/* <ProjectHelper
                     title="Game Night Debut" src={GndHome} alt="A Boardgame app's home page" src2={GndInfo} alt2="A boardgame app's description page of a boardgame" desc="A mobile first React/Node based application that pulls from an API with a custom backend Postgres database." git="https://github.com/ePortfolios/WDD4416-2201-GainorJoshua" page="/gamenight"
                 />
                 <ProjectHelper
@@ -21,8 +44,8 @@ function Projects() {
                 />
                 <ProjectHelperWide
                     title="Quiz Taker" src={QuizHome} alt="A quiz taking site's homepage" desc="A react based site with a custom RESTful API and database." git="https://github.com/GainorJoshua-FS/ASL" page="/quiz"
-                />
-            </div>
+                /> */}
+            {/* </div> */}
         </section>
     )
 }
@@ -38,11 +61,13 @@ const styles ={
     },
     h2:{
         color: "#e15c25",
-        margin: "0 19%",
+        margin: "0 19% 20px 20%",
         borderBottom: "1px solid #e15c25"
     },
-    div:{
-        display: "flex",
-        // alignItems: "end"
-    }
+    // div:{
+    //     display: "flex",
+    //     margin: "15px 20%",
+    //     // padding: "10px 0"
+    //     // alignItems: "end"
+    // },
 }
