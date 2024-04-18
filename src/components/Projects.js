@@ -1,12 +1,13 @@
 import React from 'react'
 import ProjectHelper from '../helpers/ProjectHelper'
-import ProjectHelperWide from '../helpers/ProjectHelperWide'
-import GndHome from '../images/GndHome.png'
-import GndInfo from '../images/GndInfo.png'
-import KanHome from '../images/KanbanHome.png'
-import KanNew from '../images/KanbanNew.png'
-import QuizHome from '../images/QuizHome.png'
 import BdLogo from '../images/BdLogo.png'
+import HistoricLogo from '../images/historicLogo.png'
+// import ProjectHelperWide from '../helpers/ProjectHelperWide'
+// import GndHome from '../images/GndHome.png'
+// import GndInfo from '../images/GndInfo.png'
+// import KanHome from '../images/KanbanHome.png'
+// import KanNew from '../images/KanbanNew.png'
+// import QuizHome from '../images/QuizHome.png'
 // import QuizTest from '../images/QuizTest.png'
 
 function Projects() {
@@ -14,20 +15,34 @@ function Projects() {
         <section style={styles.section}>
             <h2 style={styles.h2}>My Projects</h2>
                 <ProjectHelper
-                    src={BdLogo}
-                    alt="Logo for Board Debut Website"
+                    src={HistoricLogo}
+                    alt="Historical Journey's Logo of a compass rose"
 
-                    title="Test Title"
+                    title="Historical Journeys"
 
-                    desc="Test Desc"
+                    desc="A site for a tour company based in Gettysburg to explore the sites of the 
+                    Civil War. "
+
+                    seeMore="https://www.historicaljourneys1863.com/#/"
+
+                    git="https://github.com/GainorJoshua-FS/historical_journeys"
+
+                    useLink={false}
                 />
+
                 <ProjectHelper
                     src={BdLogo}
                     alt="Logo for Board Debut Website"
 
-                    title="Test Title"
+                    title="Board Debut"
 
-                    desc="Test Desc"
+                    seeMore="/gamenight"
+
+                    git="https://github.com/ePortfolios/WDD4416-2201-GainorJoshua"
+
+                    desc="A mobile first React/Node based application that pulls from an API with a custom backend Postgres database."
+
+                    useLink={true}
                 />
 
 
