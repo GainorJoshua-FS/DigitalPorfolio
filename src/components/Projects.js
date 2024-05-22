@@ -2,13 +2,8 @@ import React from 'react'
 import ProjectHelper from '../helpers/ProjectHelper'
 import BdLogo from '../images/BdLogo.png'
 import HistoricLogo from '../images/historicLogo.png'
-// import ProjectHelperWide from '../helpers/ProjectHelperWide'
-// import GndHome from '../images/GndHome.png'
-// import GndInfo from '../images/GndInfo.png'
-// import KanHome from '../images/KanbanHome.png'
-// import KanNew from '../images/KanbanNew.png'
-// import QuizHome from '../images/QuizHome.png'
-// import QuizTest from '../images/QuizTest.png'
+import ToDo from '../images/todo.png'
+import Kanban from '../images/kanban1.png'
 
 function Projects() {
     return (
@@ -20,8 +15,7 @@ function Projects() {
 
                     title="Historical Journeys"
 
-                    desc="A site for a tour company based in Gettysburg to explore the sites of the 
-                    Civil War. "
+                    desc="A freelance site for a tour company based in Gettysburg to explore the sites of the Civil War. "
 
                     seeMore="https://www.historicaljourneys1863.com/#/"
 
@@ -40,7 +34,37 @@ function Projects() {
 
                     git="https://github.com/ePortfolios/WDD4416-2201-GainorJoshua"
 
-                    desc="A mobile first React/Node based application that pulls from an API with a custom backend Postgres database."
+                    desc="A mobile first React/Node based application that pulls from an API with a custom backend Postgres database. "
+
+                    useLink={true}
+                />
+
+                <ProjectHelper
+                    src={ToDo}
+                    alt="Logo for a test taking website"
+
+                    title="Quiz Taker"
+
+                    seeMore="/quiz"
+
+                    git="https://github.com/GainorJoshua-FS/ASL"
+
+                    desc="A react based site with a custom RESTful API and database. "
+
+                    useLink={true}
+                />
+
+                <ProjectHelper
+                    src={Kanban}
+                    alt="Logo for a Kanban Board Site"
+
+                    title="JQG Kanban"
+
+                    seeMore="/kanban"
+
+                    git="https://github.com/GainorJoshua-FS/JQG-Kanban"
+
+                    desc="A simple JavaScript website that mimics a standard kanban board. Fully styled with SCSS including plugins and mix-ins Pulls from an API and has a custom built light/dark mode. "
 
                     useLink={true}
                 />

@@ -22,7 +22,7 @@ function ProjectHelper(props) {
     );
     return (
         <div style={styles.div}>
-            <span>
+            <span style={styles.imgContainer}>
                 <img
                     style={styles.img}
                     src={props.src}
@@ -81,7 +81,8 @@ const styles ={
     h3:{
         color: "#e15c25",
         marginTop: "0",
-        borderBottom: "1px dotted #e15c25"
+        borderBottom: "1px dotted #e15c25",
+        maxWidth: "600px"
     },
     p:{
         color: "#c2c0c1",
@@ -93,10 +94,16 @@ const styles ={
         color: "#e15c25",
         // marginLeft: "7%",
     },
+    imgContainer: {
+        minWidth: "100px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        paddingRight: "20px"
+    },
     img:{
         maxWidth: "100px",
         maxHeight: "100px",
-        paddingRight: "10px"
     }
     // link:{
     //     color: "#e15c25", 
