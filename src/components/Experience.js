@@ -9,7 +9,7 @@ function Experience() {
             <ul>
                 <li>Worked in QA Automation to write and fix automated tests</li>
                 <li>Was a part of a development team working on a project for the company's new eCommerce website</li>
-                <li>Quickly learned new skills and coding languages as needed</li>
+                <li>Helped a team program new training videos for their employees</li>
             </ul>
 
             <h3>Full Sail University | Orlando, FL | Student | 07/2019 - 03/2022</h3>

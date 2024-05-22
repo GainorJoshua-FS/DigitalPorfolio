@@ -1,5 +1,5 @@
 import React from 'react'
-import Me from '../images/Me2.JPEG'
+import Me2 from '../images/Me3.JPG'
 
 function ShowMore() {
     const dots = document.getElementById("dots");
@@ -20,7 +20,7 @@ function ShowMore() {
 function AboutMe() {
     return (
         <section style={styles.section}>
-            <img style={styles.img} src={Me} alt="Joshua Gainor" />
+            <img style={styles.img} src={Me2} alt="Joshua Gainor" />
             <h2 style={styles.h2} >About Me</h2>
             {/* TODO Add more to the second paragraph */}
             <p style={styles.p}>
@@ -54,6 +54,8 @@ const styles ={
         fontWeight: "600"
     },
     img:{
+        maxWidth: "200px",
+        maxHeight: "300px",
         textAlign: "center",
         borderRadius: "30%"
     }
