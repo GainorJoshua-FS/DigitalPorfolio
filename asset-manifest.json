@@ -1,24 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.1a64add6.css",
-    "main.js": "/static/js/main.38a1dd42.js",
+    "main.js": "/static/js/main.0b92ee60.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/collection.png": "/static/media/collection.d21ee62f3e13276d0485.png",
     "static/media/GndHome.png": "/static/media/GndHome.c84ed0247397d1ea2275.png",
-    "static/media/GndInfo.png": "/static/media/GndInfo.a400526195ea28829ff1.png",
     "static/media/QuizHome.png": "/static/media/QuizHome.4bdff70a95a3e9c58811.png",
     "static/media/QuizTest.png": "/static/media/QuizTest.089d68d05708821372b4.png",
     "static/media/KanbanHome.png": "/static/media/KanbanHome.b76e879ef2d9db0bde04.png",
     "static/media/KanbanNew.png": "/static/media/KanbanNew.ca1ceb3cc17d1b836b40.png",
-    "static/media/Me2.JPEG": "/static/media/Me2.7302ff19ceda713c9a5b.JPEG",
+    "static/media/Me3.JPG": "/static/media/Me3.7fcdbef6536ad4c5dbd5.JPG",
+    "static/media/kanban1.png": "/static/media/kanban1.aac85acfab014894819f.png",
+    "static/media/historicLogo.png": "/static/media/historicLogo.3ad20ffb93a553aa3e57.png",
+    "static/media/todo.png": "/static/media/todo.f26d436d76fbb459e8dd.png",
     "static/media/Logo.png": "/static/media/Logo.20af6c96bf98bfa4c4d9.png",
+    "static/media/BdLogo.png": "/static/media/BdLogo.7b9c5a2aa84efe414e67.png",
     "index.html": "/index.html",
     "main.1a64add6.css.map": "/static/css/main.1a64add6.css.map",
-    "main.38a1dd42.js.map": "/static/js/main.38a1dd42.js.map",
+    "main.0b92ee60.js.map": "/static/js/main.0b92ee60.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a64add6.css",
-    "static/js/main.38a1dd42.js"
+    "static/js/main.0b92ee60.js"
   ]
 }
