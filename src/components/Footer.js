@@ -15,9 +15,6 @@ function Footer() {
                             <a style={styles.a} href="https://github.com/GainorJoshua-FS" target="_blank" rel="noopener noreferrer">Github</a>
                         </li>
                         <li style={styles.li}>
-                            <a style={styles.a} href="https://twitter.com/Jobin_Tv" target="_blank" rel="noopener noreferrer">Twitter</a>
-                        </li>
-                        <li style={styles.li}>
                             <a style={styles.a} href="https://docs.google.com/document/d/19fH_-9WeQu6ExGR6X8zEwTXDvXXGMQPb-aJGzjH84Cg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">My Resume</a>
                         </li>
                         
