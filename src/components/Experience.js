@@ -5,7 +5,7 @@ function Experience() {
         <section style={styles.section}>
             <h2 style={styles.h2}>Experience</h2>
 
-            <h3>Proforma | Tampa, FL / Remote | Jr.Developer | 08/2022 - 07/2025</h3>
+            <h3>Proforma | Tampa, FL / Remote | Jr.Developer | 08/2022 - 07/2024</h3>
             <ul>
                 <li>Worked in QA Automation to write and fix automated tests</li>
                 <li>Was a part of a development team working on a project for the company's new eCommerce website</li>
